@@ -11,7 +11,7 @@
 #define Blue digitalWrite(TCS1_S2,LOW);\
             digitalWrite(TCS1_S3,HIGH);
 
-unsigned long freq;
+
 void setup() {
   // put your setup code here, to run once:
 
@@ -22,20 +22,24 @@ void setup() {
 }
 
 
-void readSensor()
+unsigned long readSensor()
 {
+  unsigned long freqRed, freqGreen, freqBlue;
   Red;
-  freq = pulseIn(Out,LOW);
-  Serial.print("R: "+String(freq));
+  freqRed = pulseIn(Out,LOW);
+  Serial.print("R: "+String(freqRed));
   delay(100);
   Green;
-  freq = pulseIn(Out,LOW);
-  Serial.print(", Green: "+String(freq));
+  freqGreen = pulseIn(Out,LOW);
+  Serial.print(", Green: "+String(freqGreen));
   delay(100);
   Blue;
-  freq = pulseIn(Out,LOW);
-  Serial.println(", Blue: "+String(freq));
+  freqBlue = pulseIn(Out,LOW);
+  Serial.println(", Blue: "+String(freqBlue));
   delay(100);
+
+  return (freqRed << 16 | freqGreen << 8 | freqBlue);
+
 }
 
 
