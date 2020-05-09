@@ -45,6 +45,9 @@ unsigned long readSensor()
 
 void loop() {
   // put your main code here, to run repeatedly:
-readSensor();
+  unsigned long rgb = readSensor();
+
+  
+
 
 }

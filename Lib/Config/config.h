@@ -6,14 +6,14 @@
 #define TCS1_OE 12
 
 
-#define Yellow  0
-#define Red     1
-#define Brown   2
-#define Black   3
-#define White   4
-#define Green   5
-#define Blue    6
-#define Pink    7
-#define Purple  8
+#define Yellow_Color  0
+#define Red_Color     1
+#define Brown_Color   2
+#define Black_Color   3
+#define White_Color   4
+#define Green_Color   5
+#define Blue_Color    6
+#define Pink_Color    7
+#define Purple_Color  8
 
 
