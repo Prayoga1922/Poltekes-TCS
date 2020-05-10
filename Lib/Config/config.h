@@ -7,15 +7,16 @@
 #define TCS1_OE 12
 
 
-#define Yellow_Color  0
-#define Red_Color     1
-#define Brown_Color   2
-#define Black_Color   3
-#define White_Color   4
-#define Green_Color   5
-#define Blue_Color    6
-#define Pink_Color    7
-#define Purple_Color  8
+#define Yellow_Color  0x090B11
+#define Red_Color     0x0A1C16
+#define Brown_Color   0x181e1a
+#define Black_Color   0x212620
+#define White_Color   0x141512
+#define Green_Color   0x1f1d20
+#define Blue_Color    0x130E08
+#define Pink_Color    0x122318
+#define Purple_Color  0x142214
+#define noObject      0x222924
 
 
 #define CenterServoPin  13
