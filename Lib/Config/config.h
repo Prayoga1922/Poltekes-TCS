@@ -12,7 +12,7 @@
 #define Brown_Color   0x181e1a
 #define Black_Color   0x212620
 #define White_Color   0x141512
-#define Green_Color   0x1f1d20
+#define Green_Color   0x120D14
 #define Blue_Color    0x130E08
 #define Pink_Color    0x122318
 #define Purple_Color  0x142214
