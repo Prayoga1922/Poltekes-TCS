@@ -1,6 +1,7 @@
 /*
     TCS 1 Pin Configure
 */
+#include "Arduino.h"
 #define TCS1_S2 6
 #define TCS1_S3 2
 #define TCS1_OE 12
@@ -17,3 +18,6 @@
 #define Purple_Color  8
 
 
+#define CenterServoPin  13
+#define RightServoPin   A0
+#define LeftServoPin    A1
