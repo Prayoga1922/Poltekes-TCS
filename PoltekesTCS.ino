@@ -5,7 +5,7 @@
 
 #define DEBUG_RGB
 #define Out 10
-#define tolerance_ 0.1
+#define tolerance_ 0.5
 #define Red digitalWrite(TCS1_S2,LOW);\
   digitalWrite(TCS1_S3,LOW);
 
